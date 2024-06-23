@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- prevent zooming -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- favicon -->
+
+    <link rel="shortcut icon" href="img/google.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Doodle</title>
+  </head>
+  <body>
+    <div class="top">
+      <ul>
+        <li title="Gmail"><a href="https://mail.google.com/">Gmail</a></li>
+        <li title="images">
+          <a href="https://www.google.com/imghp?hl=en&tab=ri&authuser=0&ogbl"
+            >Images</a
+          >
+        </li>
+        <li>
+          <a href="https://labs.google.com/search?source=ntp&authuser=0">
+            <img
+              src="img/filter-removebg-preview.png"
+              alt="filter"
+              title="filter"
+            />
+          </a>
+        </li>
+        <li title="menu"><img src="img/dice-removebg-preview.png" alt="" /></li>
+      </ul>
+    </div>
+
+    <div class="logo">
+      <a href="https://www.google.com/" target="_self">
+        <img
+          src="img/image-removebg-preview.png"
+          alt="google logo"
+          title="google logo"
+      /></a>
+
+      <!-- input type and input class -->
+      <div class="input" target="_self">
+        <input
+          type="text"
+          id="searchInputDesktop"
+          placeholder="Search google or type a URL"
+          title="Search here...."
+          autocomplete="on"
+          onkeypress="handleKeyPress(event)"
+        />
+        <!-- image inside the inputs -->
+        <span class="icon-container">
+          <img
+            src="img/png-transparent-google-mic-google-s-logo-icon-removebg-preview.png"
+            alt="Google Mic"
+            id="googleMic"
+            class="search-icon"
+            onclick="handleMicClick()"
+            title="i am listening"
+            id="mic"
+          />
+          <!-- image -->
+        </span>
+        <div id="popup" class="popup">
+          <p id="popupContent">i am listening</p>
+        </div>
+      </div>
+    </div>
+
+    <ul class="bottom">
+      <a href="#"
+        ><img
+          src="/img/favicon (1).ico"
+          alt=""
+          height="40px"
+          id="btn1"
+          title="linkedin"
+        />
+        <p>linkedin</p>
+      </a>
+
+      <a href="https://github.com/vansh-frontend" id="git"
+        ><img src="img/favicon.ico" alt="" id="btn2" title="github" />
+        <p>github</p>
+      </a>
+
+      <a href="#"
+        ><img
+          src="img/faviconwha.png"
+          alt=""
+          height="40px"
+          id="btn3"
+          title="whatsapp"
+        />
+        <p>whatsapp</p>
+      </a>
+
+      <a href="contact.html"
+        ><img
+          src="img/mail.png"
+          alt=""
+          id="btn4"
+          height="40px"
+          title="mail me"
+        />
+        <p>Mail Me</p>
+      </a>
+
+      <a href="https://cinemall.netlify.app/"
+        ><img
+          src="img/image.png"
+          alt="cinemall"
+          title="myproject cinemall"
+          id="btn5"
+          height="40px"
+        />
+        <p>cinemall</p>
+      </a>
+
+      <a href="https://pulse-pro.netlify.app/"
+        ><img
+          src="img/pulse.png"
+          alt="pulsepro"
+          title="myproject pulse pro"
+          id="btn6"
+          height="40px"
+        />
+        <p>Pusle Pro</p>
+      </a>
+    </ul>
+
+    <div class="rights">
+      <p>Developed By VANSH DHALOR</p>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
