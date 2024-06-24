@@ -80,17 +80,14 @@ body {
 }
 .top li a {
   text-decoration: none;
-  color: #ffff;
+  color: #333;
   font-weight: 300;
 }
 .top li a:hover {
-  text-decoration: none;
-  color: #ffff;
-  font-weight: 300;
-  text-decoration: underline currentColor;
-}
-.top li:hover {
-  opacity: 0.6;
+  color: gray;
+  text-decoration: underline;
+  text-underline-offset: 1rem; /*gap betwwen text and underline*/
+  text-decoration-color: rgb(181, 181, 181);
 }
 
 .input {
@@ -210,11 +207,12 @@ body {
   transform: scale(1.1);
 }
 .bottom p {
-  color: #ffff;
+  color: #333;
   text-decoration: none;
   margin: 0px 15px;
   text-align: center;
   font-size: 15px;
+  transition: 0.3s linear;
 }
 .bottom p:hover {
   color: #ccc;
@@ -222,7 +220,10 @@ body {
   margin: 0px 15px;
   text-align: center;
   font-size: 15px;
-  text-decoration: underline currentColor;
+  color: gray;
+  text-decoration: underline;
+  text-underline-offset: 1rem; /*gap betwwen text and underline*/
+  text-decoration-color: rgb(181, 181, 181);
 }
 .bottom a {
   text-decoration: none;
