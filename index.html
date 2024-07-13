@@ -54,7 +54,6 @@
           title="google logo"
       /></a>
 
-      <!-- input type and input class -->
       <div class="input" target="_self">
         <input
           type="text"
@@ -64,7 +63,6 @@
           autocomplete="on"
           onkeypress="handleKeyPress(event)"
         />
-        <!-- image inside the inputs -->
         <span class="icon-container">
           <img
             src="img/png-transparent-google-mic-google-s-logo-icon-removebg-preview.png"
@@ -72,14 +70,15 @@
             id="googleMic"
             class="search-icon"
             onclick="handleMicClick()"
-            title="i am listening"
-            id="mic"
           />
-          <!-- image -->
+          <img
+            src="img/Google_Lens_Icon.svg-removebg-preview.png"
+            alt="Google Lens"
+            id="googleLens"
+            class="search-icon"
+            onclick="handleLensClick()"
+          />
         </span>
-        <div id="popup" class="popup">
-          <p id="popupContent">i am listening</p>
-        </div>
       </div>
     </div>
 
