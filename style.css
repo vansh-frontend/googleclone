@@ -20,7 +20,6 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-
   font-family: "Poppins", sans-serif;
   font-weight: 300;
   font-style: normal;
@@ -228,6 +227,10 @@ body {
 .bottom a {
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.bottom img {
+  color: rgb(203, 203, 11);
 }
 
 .rights {
