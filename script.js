@@ -40,9 +40,7 @@ function handleMicClick() {
     });
 }
 
-function handleLensClick() {
-  // Add your logic for Google Lens functionality here
-}
+
 
 function search(query) {
   // Construct the search URL
